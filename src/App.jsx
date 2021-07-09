@@ -45,7 +45,7 @@ class App extends React.Component {
 
     render() {
         return (
-
+            <>
             <div className="container" style={{background: "linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)"}} >
                 <div className="title" style={{ color:"whitesmoke", fontSize: "2rem", textAlign: "center", fontStyle: "oblique"   }}>Classy Chirper</div>
                 <div class="mb-3" style={{width: "36rem"}}>
@@ -72,6 +72,7 @@ class App extends React.Component {
 
                 {this.state.chirps.slice(0).reverse().map(chirp => <ChirpContainer chirp={chirp} />)}
             </div>
+            </>
         );
     }
 }
