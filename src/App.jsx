@@ -48,7 +48,7 @@ class App extends React.Component {
             <>
             <div className="container" style={{background: "linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)"}} >
                 <div className="title" style={{ color:"whitesmoke", fontSize: "2rem", textAlign: "center", fontStyle: "oblique"   }}>Classy Chirper</div>
-                <div class="mb-3" style={{width: "36rem"}}>
+                <div class="mb-3" style={{width: "18rem"}}>
                     <label for="nameInpunt" class="form-label">Your Name</label>
                     <input
                         type="text"
@@ -56,7 +56,7 @@ class App extends React.Component {
                         id="nameInpunt"
                         onChange={this.handleNewUserChange} />
                 </div>
-                <div class="mb-3" style={{width: "36rem"}}>
+                <div class="mb-3" style={{width: "18rem"}}>
                     <label for="postInput" class="form-label">Your Post</label>
                     <textarea
                         class="form-control"
